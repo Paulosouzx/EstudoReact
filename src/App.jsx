@@ -1,8 +1,18 @@
-import {Fundamentos} from "./Fundamentos";
-import "./style.css";
+import {Header} from "./Components/Header";
+import style from "./App.module.css";
+import { Sidebar } from "./Components/Sidebar";
 
 function App() {
-  return <Fundamentos author="Paulo" content="Paulo lindao gostosao" />;
+  return (
+    <div>
+      <Header />
+
+      <div className={style.wrapper}>
+        <Sidebar />
+        <main>dsdasda</main>
+      </div>
+    </div>
+  );
 }
 
 export default App;
