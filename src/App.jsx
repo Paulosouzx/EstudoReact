@@ -15,13 +15,12 @@ const posts = [
       role: "CTO"
     },
     content: [
-      {type: "paragraph", content: "Fala galeraa 👋"},
+      {type: "paragraph", content: "Fala galera"},
       {
         type: "paragraph",
-        content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat O nome do projeto é DoctorCare 🚀"
+        content: "Bom dia pessoal!"
       },
-      {type: "link", content: "saraa.design/doctorcare"}
+      {type: "link", content: "saraa.cto/direct"}
     ],
     publishedAt: new Date("2024-03-11 19:00:00")
   },
@@ -33,13 +32,12 @@ const posts = [
       role: "Software Developer"
     },
     content: [
-      {type: "paragraph", content: "Fala galeraa 👋"},
+      {type: "paragraph", content: "Bom dia pessoa"},
       {
         type: "paragraph",
-        content:
-          "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat O nome do projeto é DoctorCare 🚀"
+        content: "Desenvolvendo mais um projeto em React! Segue o Link"
       },
-      {type: "link", content: "saraa.design/doctorcare"}
+      {type: "link", content: "paulosouza.netlify.app"}
     ],
     publishedAt: new Date("2024-05-14 19:00:00")
   }

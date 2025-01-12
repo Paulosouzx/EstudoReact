@@ -7,7 +7,7 @@ import {useState} from "react";
 
 //desestruturando, mas n muda nada
 export function Post({author, publishedAt, content}) {
-  const [comments, setComments] = useState([1, 2]);
+  const [comments, setComments] = useState(["Bom dia Pessoal!"]);
 
   const [newCommentText, setNewCommentText] = useState("");
 
