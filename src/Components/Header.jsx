@@ -2,7 +2,7 @@
 
 import style from "./Header.module.css";
 
-import igniteLogo from "../assets/Ignite-logo.png";
+import igniteLogo from "../assets/NightTalk.png";
 
 export function Header() {
   return (
